@@ -13,6 +13,9 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
+
+
+
 body {
     color: var(--terciary-color);
     background: #dddddd;
@@ -652,7 +655,52 @@ a:focus {
     }
 }
 
+.about p {
+    text-align: justify;
+}
 
+/*******************************/
+/********** boton WSP ***********/
+/*******************************/
+
+.btn-wsp{
+    position:fixed;
+    width:90px;
+    height:90px;
+    line-height: 90px;
+    bottom:25px;
+    right:25px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:60px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+    animation: bounce 1.5s infinite;
+}
+.btn-wsp:hover{
+    background: lightcyan;
+}
+
+/* Animación de rebote */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:768px){
+    .btn-wsp{
+        width:90px;
+        height:90px;
+        line-height: 90px;
+	}
+}
 /*******************************/
 /********** Fact CSS ***********/
 /*******************************/
