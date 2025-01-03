@@ -1256,7 +1256,7 @@ a:focus {
     height: 50px;
     top: 0;
     left: calc(50% - 30px);
-    background: url(../img/quote.png) top center no-repeat;
+  /*  background: url(../img/quote.png) top center no-repeat;*/
 }
 
 .testimonial .testimonial-slider h3 {

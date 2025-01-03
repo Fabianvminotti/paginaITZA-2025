@@ -90,7 +90,7 @@
         focusOnSelect: true,
         centerMode: true,
         centerPadding: '22px',
-        slidesToShow: 3,
+        slidesToShow: 5,
         asNavFor: '.testimonial-slider'
     });
     $('.testimonial .slider-nav').css({"position": "relative", "height": "160px"});
