@@ -1230,14 +1230,14 @@ a:focus {
 }
 
 .testimonial .testimonial-slider-nav .slick-center {
-    transform: scale(1.8);
+    transform: scale(2.5);
     z-index: 1;
 }
 
 .testimonial .testimonial-slider-nav .slick-slide img {
     position: relative;
     display: block;
-    margin-top: 37px;
+    margin-top: 60px;
     width: 100%;
     height: auto;
     border-radius: 100px;
