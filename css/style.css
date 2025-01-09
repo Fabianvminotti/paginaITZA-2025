@@ -396,11 +396,15 @@ a:focus {
 /******* Page Header CSS *******/
 /*******************************/
 .page-header {
+    display: flex;
+    flex-direction: column; /* Apilar los elementos verticalmente */
+    justify-content: center; /* Centrar verticalmente */
     position: relative;
     margin-bottom: 45px;
     padding: 90px 0;
     text-align: center;
     background: var(--main-color);
+    height: calc(100vh - 170px);
 }
 
 .page-header h2 {
@@ -442,6 +446,44 @@ a:focus {
     right: -7px;
     text-align: center;
     color: #121518;
+}
+
+.page-header .btn {
+    display: inline-block;
+    position: relative;
+    border: 2px solid black;
+    margin-top: 15px;
+    padding: 15px 35px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: var(--secondary-color);
+    border-radius: 0;
+    background: var(--main-color);
+    transition: .3s;
+}
+
+.page-header .btn:hover {
+    color: var(--main-color);
+    background: var(--secondary-color);
+}
+
+
+.tags{
+    display: inline-block;
+    border: 1px solid #000000;
+    margin: 4px;
+    border-radius: 3px;
+    padding: 3px;
+    color: black;
+    /* background-color: rgb(211, 211, 211); */
+    font-weight:400;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.tags:hover {
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05); /* Opción: para un leve aumento en tamaño */
 }
 
 .page-header a:last-child::after {
@@ -838,7 +880,7 @@ a:focus {
     color: var(--main-color);
     text-align: left;
     overflow: hidden;
-    white-space: nowrap;
+    white-space: normal;
     text-overflow: ellipsis;
 }
 
@@ -1942,7 +1984,7 @@ a:focus {
     height: 60px;
     background: var(--secondary-color);
     overflow: hidden;
-    white-space: nowrap;
+    white-space: normal;
     text-overflow: ellipsis;
 }
 
@@ -1955,7 +1997,7 @@ a:focus {
     color: var(--main-color);
     text-align: center;
     overflow: hidden;
-    white-space: nowrap;
+    white-space: normal;
     text-overflow: ellipsis;
 }
 
