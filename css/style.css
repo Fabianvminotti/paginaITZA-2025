@@ -409,7 +409,7 @@ a:focus {
 
 .page-header h2 {
     position: relative;
-    color: var(--secondary-color);
+    color: white;
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -423,7 +423,11 @@ a:focus {
     height: 2px;
     left: calc(50% - 50px);
     bottom: 0;
-    background: var(--secondary-color);
+    background: white;
+}
+
+.page-header h5 {
+    color: white;
 }
 
 .page-header a {
@@ -451,39 +455,51 @@ a:focus {
 .page-header .btn {
     display: inline-block;
     position: relative;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     margin-top: 15px;
     padding: 15px 35px;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 1px;
-    color: var(--secondary-color);
+    color:  rgb(255, 255, 255);
     border-radius: 0;
-    background: var(--main-color);
+    background: rgb(255, 255, 255,0.2);
     transition: .3s;
+    animation: glow 1.5s infinite alternate; /* Nueva animación */
+
 }
 
 .page-header .btn:hover {
-    color: var(--main-color);
-    background: var(--secondary-color);
+    color:  black;
+    background:  rgb(255, 255, 255,0.7);
 }
 
+@keyframes glow {
+    0% {
+        /* box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); */
+        background: rgba(255, 255, 255, 0.01);
+    }
+    100% {
+        /* box-shadow: 0 0 20px rgba(255, 255, 255, 1); */
+        background: rgba(255, 255, 255, 0.35);
+    }
+}
 
 .tags{
     display: inline-block;
-    border: 1px solid #000000;
+    border: 1px solid #ffffff;
     margin: 4px;
     border-radius: 3px;
     padding: 3px;
-    color: black;
+    color: rgb(255, 255, 255);
     /* background-color: rgb(211, 211, 211); */
     font-weight:400;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .tags:hover {
-    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.5);
-    transform: scale(1.05); /* Opción: para un leve aumento en tamaño */
+    box-shadow: 0 0 5px 2px rgba(255, 255, 255, 0.5);
+    transform: scale(1.02); /* Opción: para un leve aumento en tamaño */
 }
 
 .page-header a:last-child::after {
