@@ -1,5 +1,6 @@
 :root {
     --main-color: #38b6ff;
+    /* --main-color: #0095eb; */
     --secondary-color: #1C110A;
     /* --secondary-color: #817F82; */
     --terciary-color: #817F82;
@@ -487,6 +488,7 @@ a:focus {
 
 .tags{
     display: inline-block;
+    font-size: small;
     border: 1px solid #ffffff;
     margin: 4px;
     border-radius: 3px;
