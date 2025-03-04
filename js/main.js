@@ -162,3 +162,32 @@ function sendEmail() {
     })
     .catch(error => console.error("Error:", error));
 }
+
+
+function sendForm() {
+    var name = document.getElementById("name").value;
+    var tel = document.getElementById("tel").value;
+    var subject = document.getElementById("subject").value;
+    var message = document.getElementById("message").value;
+
+    if (name === "" || tel === "" || subject === "" || message === "") {
+        alert("Por favor, completa todos los campos.");
+        return;
+    }
+
+    fetch("https://script.google.com/macros/s/AKfycbwEWHw8qMQv2uKH4lua9xqR_J627yeAtuUgdJIeCuI6Pg1H2TtbDpGETjI1lhU25-z_/exec", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name: name, tel: tel, subject: subject, message: message })
+    })
+    .then(response => response.text())
+    .then(data => {
+        if (data === "Success") {
+            alert("¡Mensaje enviado con éxito!");
+            document.getElementById("contactForm").reset();
+        } else {
+            alert("Error al enviar el mensaje, intenta nuevamente.");
+        }
+    })
+    .catch(error => console.error("Error:", error));
+}
