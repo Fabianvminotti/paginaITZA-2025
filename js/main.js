@@ -135,3 +135,30 @@
     
 })(jQuery);
 
+
+
+function sendEmail() {
+    var email = document.getElementById("email").value;
+    if (email === "") {
+        alert("Por favor, ingresa tu correo.");
+        return;
+    }
+
+    fetch("https://script.google.com/macros/s/AKfycbyd5VuVx7fdWZAjmHmWkTSKACNqHsTv1YSeVijgjIHVz5cVZueXvVY6ZpI7R97opaXn/exec", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ email: email })
+    })
+    .then(response => response.text())
+    .then(data => {
+        if (data === "Success") {
+            alert("¡Gracias! Te has suscrito al newsletter.");
+            document.getElementById("email").value = ""; // Limpia el campo
+        } else {
+            alert("Hubo un error, intenta de nuevo.");
+        }
+    })
+    .catch(error => console.error("Error:", error));
+}
