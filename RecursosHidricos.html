@@ -1,540 +1,384 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-K4Q99W75');</script>
-    <!-- End Google Tag Manager -->
-        <meta charset="utf-8">
-        <title>ITZA Ingeniería integral</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Construction Company Website Template" name="keywords">
-        <meta content="Construction Company Website Template" name="description">
+<html lang="es">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-K4Q99W75');</script>
+  <!-- End GTM -->
 
-        <!-- Favicon -->
-        <link href="paginav2\main-ico.jpg" rel="icon">
+  <meta charset="utf-8">
+  <title>Servicios de Ingeniería Hídrica — ITZA Ingeniería</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Estudios hidrológicos e hidráulicos, factibilidad hídrica, diseño de obras hidráulicas, riego, batimetrías y aforos en Entre Ríos y Santa Fe.">
 
-        <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Servicios de Ingeniería Hídrica — ITZA Ingeniería">
+  <meta property="og:description" content="Estudios hidrológicos, factibilidad hídrica, obras hidráulicas, riego y más.">
+  <meta property="og:url" content="https://www.itza.com.ar/RecursosHidricos.html">
+  <meta property="og:image" content="https://www.itza.com.ar/paginav2/irh-banner.webp">
 
-        <!-- CSS Libraries -->
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet"> 
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-        <link href="lib/slick/slick.css" rel="stylesheet">
-        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="icon" href="paginav2/main-ico.jpg">
 
-        <script type="text/javascript"> 
-            // Variables globales
-            var imgIRH = "img/imgIRH.jpg"
+  <!-- Networking hints -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="dns-prefetch" href="//fonts.gstatic.com">
+  <link rel="preconnect" href="https://stackpath.bootstrapcdn.com" crossorigin>
+  <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+  <link rel="dns-prefetch" href="//code.jquery.com">
 
-        </script>
-  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+  <!-- Google Font -->
+  <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=optional">
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=optional">
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/fontello.css" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="preload" as="style"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"></noscript>
 
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+        media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fontello.css" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="css/fontello.css"></noscript>
 
+  <!-- Preload LCP -->
+  <link rel="preload" as="image" fetchpriority="high" href="paginav2/irh-banner.webp">
 
-   
+  <style>
+    /* Navbar estable ante swap de fuente */
+    .nav-bar .navbar{min-height:64px}
+    .navbar-nav .nav-link{white-space:nowrap}
 
-    </head>
+    /* Hero */
+    .page-header{position:relative;overflow:hidden;min-height:400px}
 
-    <body>
-        <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K4Q99W75"
+    /* Tarjetas sin saltos al aparecer el overlay */
+    .service-item .service-img{position:relative;overflow:hidden}
+    .service-item .service-img .service-overlay{position:absolute;inset:0}
+
+    /* Imágenes cuadradas responsivas */
+    .service-item .service-img img{width:100%;height:auto;aspect-ratio:1/1;object-fit:cover}
+
+    /* Forzar font-display en fontello si hiciera falta */
+    @font-face{
+      font-family:'fontello';
+      src:url('font/fontello.woff2') format('woff2'),
+          url('font/fontello.woff') format('woff');
+      font-display:swap;font-weight:normal;font-style:normal
+    }
+  </style>
+</head>
+
+<body id="top">
+  <!-- GTM noscript -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K4Q99W75"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-        <a href="https://api.whatsapp.com/send/?phone=5493425687429&text=Hola,%20me%20comunico%20para%20saber%20mas%20sobre%20los%20servicios%20de%20ingenieria%20hidrica" class="btn-wsp" target="_blank">
-            <i class="icon-whatsapp"></i>
+
+  <!-- WhatsApp FAB -->
+  <a href="https://api.whatsapp.com/send/?phone=5493425687429&text=Hola,%20me%20comunico%20para%20saber%20mas%20sobre%20los%20servicios%20de%20ingenieria%20hidrica"
+     class="btn-wsp" target="_blank" rel="noopener noreferrer"
+     aria-label="Abrir chat de WhatsApp con ITZA Ingeniería">
+    <i class="icon-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <div class="wrapper">
+    <!-- Top Bar -->
+    <div class="top-bar">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-lg-4 col-md-12">
+            <div class="logo">
+                            <a href="index.html">
+                                <img src="img/logo-tr.png" alt="ITZA" width="73.5" height="50">
+                            </a>
+                        </div>
+          </div>
+          <div class="col-lg-8 col-md-7 d-none d-lg-block"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Nav Bar -->
+    <div class="nav-bar">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+          <a href="#" class="navbar-brand">MENU</a>
+          <button type="button" class="navbar-toggler"
+                  data-toggle="collapse" data-target="#navbarCollapse"
+                  aria-controls="navbarCollapse" aria-expanded="false"
+                  aria-label="Abrir menú de navegación">
+            <span class="navbar-toggler-icon" aria-hidden="true"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav mr-auto">
+              <a href="index.html" class="nav-item nav-link">Inicio</a>
+              <a href="about.html" class="nav-item nav-link">Nosotros</a>
+              <a href="portfolio.html" class="nav-item nav-link">Proyectos</a>
+              <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle active"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Áreas</a>
+                <div class="dropdown-menu">
+                  <a href="Agrimensura.html" class="dropdown-item" style="color:#fff !important;">Agrimensura</a>
+                  <a href="RecursosHidricos.html" class="dropdown-item active" style="color:#fff !important;">Recursos hídricos</a>
+                  <a href="Topografia.html" class="dropdown-item" style="color:#fff !important;">Topografía</a>
+                  <a href="Ambiental.html" class="dropdown-item" style="color:#fff !important;">Ambiental</a>
+                  <a href="Civil.html" class="dropdown-item" style="color:#fff !important;">Civil</a>
+                  <a href="Simulacion.html" class="dropdown-item" style="color:#fff !important;">Simulación Hidráulica</a>
+                </div>
+              </div>
+              <a href="contact.html" class="nav-item nav-link">Contacto</a>
+            </div>
+            <div class="ml-auto">
+              <a class="btn" href="https://api.whatsapp.com/send/?phone=5493425687429&text=Hola,%20me%20comunico%20para%20saber%20mas%20sobre%20los%20servicios%20de%20ingenieria%20hidrica">Contáctanos</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Page Header (LCP optimizado) -->
+    <div class="page-header">
+      <img src="paginav2/irh-banner.webp"
+           alt="Soluciones en Ingeniería Hídrica"
+           width="1920" height="800"
+           fetchpriority="high" decoding="async"
+           style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
+      <div aria-hidden="true" style="position:absolute;inset:0;background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7));"></div>
+
+      <div class="container" style="position:relative;z-index:1;">
+        <!-- <div class="col-12"><h1>Soluciones en Ingeniería Hídrica</h1></div>
+        <div class="col-12"><p class="h5" role="doc-subtitle">Ing. en Recursos Hídricos Fabian Minotti</p></div> -->
+
+        <div class="row">
+                    <div class="col-12">
+                        <h2>Soluciones en Ingeniería Hídrica</h2>
+                    </div>
+                    <div class="col-12">
+                        <h5>Ing. en Recursos Hídricos Fabian Minotti</h5>
+                    </div>
+                </div>
+
+        <div style="display:block !important;">
+          <div class="tags">Estudios Hidrológicos e Hidráulicos</div>
+          <div class="tags">Factibilidad Hídrica</div>
+          <div class="tags">Diseño de Obras Hidráulicas</div>
+          <div class="tags">Riego y Drenaje Rural</div>
+          <div class="tags">Loteos</div>
+        </div>
+
+        <a class="btn" target="_blank"
+           href="https://api.whatsapp.com/send/?phone=5493425687429&text=Hola,%20me%20comunico%20para%20saber%20mas%20sobre%20los%20servicios%20de%20ingenieria%20hidrica">
+          Contactar
         </a>
-        <div class="wrapper">
-            <!-- Top Bar Start -->
-            <div class="top-bar">
-                <div class="container-fluid">
-                    <div class="row align-items-center">
-                        <div class="col-lg-4 col-md-12">
-                            <div class="logo">
-                                <a href="index.html">
-                                    <!-- <h1>Builderz</h1> -->
-                                    <img src="img/logo-tr.png" alt="ITZA">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-8 col-md-7 d-none d-lg-block">
-                            <div class="row">
-                                <div class="col-4">
-                                    <div class="top-bar-item">
-                                        <div class="top-bar-icon">
-                                            <!-- <i class="flaticon-calendar"></i> -->
-                                        </div>
-                                        <div class="top-bar-text">
-                                            <!-- <h3>Opening Hour</h3>
-                                            <p>Mon - Fri, 8:00 - 9:00</p> -->
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="top-bar-item">
-                                        <div class="top-bar-icon">
-                                            <!-- <i class="flaticon-call"></i> -->
-                                        </div>
-                                        <div class="top-bar-text">
-                                            <!-- <h3>Call Us</h3>
-                                            <p>+012 345 6789</p> -->
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="top-bar-item">
-                                        <div class="top-bar-icon">
-                                            <!-- <i class="flaticon-send-mail"></i> -->
-                                        </div>
-                                        <div class="top-bar-text">
-                                            <!-- <h3>Email Us</h3>
-                                            <p>info@example.com</p> -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Top Bar End -->
+      </div>
+    </div>
+    <!-- Page Header End -->
 
-            <div class="nav-bar">
-                <div class="container-fluid">
-                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-                        <a href="#" class="navbar-brand">MENU</a>
-                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-
-                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                            <div class="navbar-nav mr-auto">
-                                <a href="index.html" class="nav-item nav-link ">Inicio</a>
-                                <a href="about.html" class="nav-item nav-link">Nosotros</a>
-                                <!-- <a href="service.html" class="nav-item nav-link">Servicios</a> -->
-                                <!-- <a href="team.html" class="nav-item nav-link">Agrimensura</a>
-                                <a href="team.html" class="nav-item nav-link">Recursos hidricos</a>
-                                <a href="team.html" class="nav-item nav-link">Topografia</a>
-                                <a href="team.html" class="nav-item nav-link">Ambiental</a>
-                                <a href="team.html" class="nav-item nav-link">Civil</a> -->
-                                <a href="portfolio.html" class="nav-item nav-link">Proyectos</a>
-                                <div class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Áreas</a>
-                                    <div class="dropdown-menu">
-                                        <a href="Agrimensura.html" class="dropdown-item" style="color: white !important;">Agrimensura</a>
-                                        <a href="RecursosHidricos.html" class="dropdown-item active" style="color: white !important;">Recursos hídricos</a>
-                                        <a href="Topografia.html" class="dropdown-item" style="color: white !important;">Topografía</a>
-                                        <a href="Ambiental.html" class="dropdown-item" style="color: white !important;">Ambiental</a>
-                                        <a href="Civil.html" class="dropdown-item" style="color: white !important;">Civil</a>
-                                        <!-- <a href="Loteos.html" class="dropdown-item" style="color: white !important;">Loteos</a> -->
-                                        <a href="Simulacion.html" class="dropdown-item" style="color: white !important;">Simulación Hidráulica</a>
-                                    </div>
-                                </div>
-                                <a href="contact.html" class="nav-item nav-link">Contacto</a>
-                            </div>
-                            <div class="ml-auto">
-                                <a class="btn" href="https://api.whatsapp.com/send/?phone=5493425687429&text=Hola,%20me%20comunico%20para%20saber%20mas%20sobre%20los%20servicios%20de%20ingenieria%20hidrica">Contáctanos</a>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-            <!-- Nav Bar End -->
-            
-            
-            <!-- Page Header Start -->
-            <div class="page-header"
-                style="background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url(paginav2/irh-banner.jpg) ;background-size: cover;">
-                <div class="container">
-                    <div class="col-12">
-                        <h2>SOLUCIONES EN INGENIERÍA HÍDRICA</h2>
-                    </div>
-                    <div class="col-12">
-                        <h5>Ing. en rec. hídricos Fabian Minotti</h5>
-                    </div>
-                    <div style="display: block !important;">
-                        <div class="tags">Estudios Hidrológicos e Hidráulicos</div>
-                        <div class="tags">Factibilidad Hídrica</div>
-                        <div class="tags">Diseño de Obras Hidráulicas</div>
-                        <div class="tags">Riego y Drenaje Rural</div>
-                        <div class="tags">Loteos</div>
-                    </div>
-                
-            
-                <a class="btn"
-                    href="https://api.whatsapp.com/send/?phone=5493425687429&text=Hola,%20me%20comunico%20para%20saber%20mas%20sobre%20los%20servicios%20de%20ingenieria%20hidrica-Hidricas"
-                    target="_blank">Contactar</a>
-            
-                </div>
-            
-            </div>
-            <!-- Page Header End -->
-
-
-            <!-- Service Start -->
-            <div class="service">
-                <div class="container">
-                    <div class="section-header text-center">
-                        <p></p>
-                        <h2>Servicios</h2>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="paginav2/irh-EH.jpg" alt="Image">
-                                    <div class="service-overlay">
-                                        <p>
-                                            Realizamos estudios para la determinación de riesgos hídricos, obtención de caudales y tormentas de diseño, estimación de inundaciones y zonas vulnerables, y análisis de factibilidad hídrica, entre otros.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="service-text">
-                                    <h3>Estudios Hidrológicos e hidráulicos</h3>
-                                    <a class="btn">+</a>                            </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="paginav2/irh-obrah.jpg" alt="Image">
-                                    <div class="service-overlay">
-                                        <p>
-                                            Desarrollamos diseños de alcantarillas y puentes, dimensionamiento de canales y conductos, estudios hidrogeológicos, diseño de perforaciones de agua, y planificación de redes cloacales y de agua potable.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="service-text">
-                                    <h3>Proyectos de Obras Hidráulicas</h3>
-                                    <a class="btn">+</a>
-                                                            </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="paginav2/irh-fact.jpg" alt="Image">
-                                    <div class="service-overlay">
-                                        <p>
-                                            Se realizan estudios de factibilidad hídrica para nuevos loteos y subdivisiones, evaluando riesgos de inundación por cursos naturales, áreas bajas y canalizaciones. Incluyen el análisis, diseño y gestión de certificados de zonificación, drenajes urbanos y final de obra.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="service-text">
-                                    <h3>Estudios de factibilidad hídrica</h3>
-                                    <a class="btn" href="blog\FactibilidadesHidricas.html">+</a>                            </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="paginav2/irh-riego.jpg" alt="Image">
-                                    <div class="service-overlay">
-                                        <p>Diseñamos sistemas de riego agrícola eficientes y adaptados a cada tipo de cultivo y condición del terreno. Incluye la evaluación de fuentes de agua, cálculo de dotaciones, elección del método de riego más adecuado y dimensionamiento integral del sistema para un uso racional del recurso hídrico.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="service-text">
-                                    <h3>Diseño de Riego Agrícola</h3>
-                                    <a class="btn">+</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="paginav2/irh-bati.jpg" alt="Image">
-                                    <div class="service-overlay">
-                                        <p>
-                                            Realizamos estudios detallados de batimetría y aforos para la gestión eficiente de recursos hídricos, aplicando tecnología de vanguardia para mediciones precisas de profundidades, volúmenes y caudales de cuerpos de agua.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="service-text">
-                                    <h3>Batimetrías y Aforos</h3>
-                                    <a class="btn">+</a>                            </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="paginav2/irh-subte.jpg" alt="Image">
-                                    <div class="service-overlay">
-                                        <p>
-                                            Realizamos los estudios e informes previos (hidrogeológicos) y el diseño de captaciones. También llevamos a cabo la homologación de pozos existentes y realizamos los registros en los organismos competentes.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="service-text">
-                                    <h3>Estudios y homologación de pozos</h3>
-                                    <a class="btn">+</a>                            </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="paginav2/irh-terraza.jpg" alt="Image">
-                                    <div class="service-overlay">
-                                        <p>Diseñamos, ejecutamos y mantenemos sistemas de terrazas agrícolas para evitar procesos erosivos y aumentar la productividad de los campos.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="service-text">
-                                    <h3>Sistematización de campos</h3>
-                                    <a class="btn">+</a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-            <!-- Service End -->
-            
-            
-            <!-- FAQs Start -->
-            <!-- <div class="faqs">
-                <div class="container">
-                    <div class="section-header text-center">
-                        <p>Frequently Asked Question</p>
-                        <h2>You May Ask</h2>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div id="accordion-1">
-                                <div class="card wow fadeInLeft" data-wow-delay="0.1s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseOne">
-                                            Lorem ipsum dolor sit amet?
-                                        </a>
-                                    </div>
-                                    <div id="collapseOne" class="collapse" data-parent="#accordion-1">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card wow fadeInLeft" data-wow-delay="0.2s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseTwo">
-                                            Lorem ipsum dolor sit amet?
-                                        </a>
-                                    </div>
-                                    <div id="collapseTwo" class="collapse" data-parent="#accordion-1">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card wow fadeInLeft" data-wow-delay="0.3s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseThree">
-                                            Lorem ipsum dolor sit amet?
-                                        </a>
-                                    </div>
-                                    <div id="collapseThree" class="collapse" data-parent="#accordion-1">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card wow fadeInLeft" data-wow-delay="0.4s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseFour">
-                                            Lorem ipsum dolor sit amet?
-                                        </a>
-                                    </div>
-                                    <div id="collapseFour" class="collapse" data-parent="#accordion-1">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card wow fadeInLeft" data-wow-delay="0.5s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseFive">
-                                            Lorem ipsum dolor sit amet?
-                                        </a>
-                                    </div>
-                                    <div id="collapseFive" class="collapse" data-parent="#accordion-1">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div id="accordion-2">
-                                <div class="card wow fadeInRight" data-wow-delay="0.1s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseSix">
-                                            Lorem ipsum dolor sit amet?
-                                        </a>
-                                    </div>
-                                    <div id="collapseSix" class="collapse" data-parent="#accordion-2">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card wow fadeInRight" data-wow-delay="0.2s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseSeven">
-                                            Lorem ipsum dolor sit amet?
-                                        </a>
-                                    </div>
-                                    <div id="collapseSeven" class="collapse" data-parent="#accordion-2">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card wow fadeInRight" data-wow-delay="0.3s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseEight">
-                                            Lorem ipsum dolor sit amet?
-                                        </a>
-                                    </div>
-                                    <div id="collapseEight" class="collapse" data-parent="#accordion-2">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card wow fadeInRight" data-wow-delay="0.4s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseNine">
-                                            Lorem ipsum dolor sit amet?
-                                        </a>
-                                    </div>
-                                    <div id="collapseNine" class="collapse" data-parent="#accordion-2">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card wow fadeInRight" data-wow-delay="0.5s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseTen">
-                                            Lorem ipsum dolor sit amet?
-                                        </a>
-                                    </div>
-                                    <div id="collapseTen" class="collapse" data-parent="#accordion-2">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <!-- FAQs End -->
-
-
-      <!-- Footer Start -->
-      <div class="footer wow fadeIn" data-wow-delay="0.3s">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-3">
-                    <div class="footer-contact">
-                        <h2>Contacto</h2>
-                        <p><i class="fa fa-map-marker-alt"></i>Pedro Balcar 233, Paraná </p>
-                        <p><i class="fa fa-map-marker-alt"></i>Rivadavia 2774, Santa Fe</p>
-                        <p><i class="fa fa-phone-alt"></i>+54 9 343 506-6172</p>
-                        <p><i class="fa fa-envelope"></i>contacto@itza.com.ar
-                        </p>
-                        <div class="footer-social">
-                            <a href="https://www.instagram.com/itzaingenieria/"><i class="fab fa-instagram"></i></a>
-                            <a href="https://www.linkedin.com/company/itza-ingenieria"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="footer-link">
-                        <h2>Paginas Principales</h2>
-                        <a href="index.html">Inicio</a>
-                        <a href="about.html">Nosotros</a>
-                        <a href="portfolio.html">Proyectos</a>
-                        <a href="contact.html">Contacto</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="footer-link">
-                        <h2>Areas de ingeniería</h2>
-                        <a href="Agrimensura.html">Agrimensura</a>
-                        <a href="RecursosHidricos.html">Recursos Hídricos</a>
-                        <a href="Topografia.html">Topografía</a>
-                        <a href="Ambiental.html">Ambiental</a>
-                        <a href="Civil.html">Civil</a>
-                        <a href="Simulacion.html">Simulación hidráulica</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="newsletter">
-                        <h2>Newsletter</h2>
-                        <p>
-                            Recibí periódicamente novedades sobre nuestros servicios
-                        </p>
-                        <div class="form">
-                            <input class="form-control" id="email" placeholder="Email">
-                            <button class="btn" onclick="sendEmail()">Enviar</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- Service Start -->
+    <div class="service">
+      <div class="container">
+        <div class="section-header text-center">
+          <p></p>
+          <h2>Servicios</h2>
         </div>
-        <!-- <div class="container footer-menu">
-            <div class="f-menu">
-                <a href="">Terms of use</a>
-                <a href="">Privacy policy</a>
-                <a href="">Cookies</a>
-                <a href="">Help</a>
-                <a href="">FQAs</a>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item">
+              <div class="service-img">
+                <img src="paginav2/irh-EH_converted.webp" alt="Estudios Hidrológicos e Hidráulicos"
+                     width="370" height="370" loading="lazy" decoding="async"
+                     sizes="(min-width:992px) 33vw, (min-width:768px) 50vw, 100vw">
+                <div class="service-overlay">
+                  <p>Determinación de riesgos hídricos, tormentas de diseño, caudales, inundaciones y factibilidad hídrica.</p>
+                </div>
+              </div>
+              <div class="service-text">
+                <h3>Estudios Hidrológicos e Hidráulicos</h3>
+                <a class="btn" role="button" aria-label="Ver detalles de Estudios Hidrológicos e Hidráulicos">+</a>
+              </div>
             </div>
-        </div> -->
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item">
+              <div class="service-img">
+                <img src="paginav2/irh-obrah_converted.webp" alt="Proyectos de Obras Hidráulicas"
+                     width="370" height="370" loading="lazy" decoding="async"
+                     sizes="(min-width:992px) 33vw, (min-width:768px) 50vw, 100vw">
+                <div class="service-overlay">
+                  <p>Diseño de alcantarillas y puentes, canales y conductos, estudios hidrogeológicos y redes de agua.</p>
+                </div>
+              </div>
+              <div class="service-text">
+                <h3>Proyectos de Obras Hidráulicas</h3>
+                <a class="btn" role="button" aria-label="Ver detalles de Proyectos de Obras Hidráulicas">+</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item">
+              <div class="service-img">
+                <img src="paginav2/irh-fact_converted.webp" alt="Estudios de factibilidad hídrica"
+                     width="370" height="370" loading="lazy" decoding="async"
+                     sizes="(min-width:992px) 33vw, (min-width:768px) 50vw, 100vw">
+                <div class="service-overlay">
+                  <p>Factibilidad hídrica para loteos y subdivisiones: análisis, diseño y gestión de certificados y drenajes.</p>
+                </div>
+              </div>
+              <div class="service-text">
+                <h3>Estudios de factibilidad hídrica</h3>
+                <a class="btn" href="blog/FactibilidadesHidricas.html" aria-label="Leer más sobre factibilidad hídrica">+</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item">
+              <div class="service-img">
+                <img src="paginav2/irh-riego_converted.webp" alt="Diseño de riego agrícola"
+                     width="370" height="370" loading="lazy" decoding="async"
+                     sizes="(min-width:992px) 33vw, (min-width:768px) 50vw, 100vw">
+                <div class="service-overlay">
+                  <p>Evaluación de fuentes de agua, dotaciones y dimensionamiento integral para un uso eficiente del recurso.</p>
+                </div>
+              </div>
+              <div class="service-text">
+                <h3>Diseño de Riego Agrícola</h3>
+                <a class="btn" role="button" aria-label="Ver detalles de Diseño de Riego Agrícola">+</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item">
+              <div class="service-img">
+                <img src="paginav2/irh-bati_converted.webp" alt="Batimetrías y Aforos"
+                     width="370" height="370" loading="lazy" decoding="async"
+                     sizes="(min-width:992px) 33vw, (min-width:768px) 50vw, 100vw">
+                <div class="service-overlay">
+                  <p>Mediciones precisas de profundidades, volúmenes y caudales con tecnología de vanguardia.</p>
+                </div>
+              </div>
+              <div class="service-text">
+                <h3>Batimetrías y Aforos</h3>
+                <a class="btn" role="button" aria-label="Ver detalles de Batimetrías y Aforos">+</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item">
+              <div class="service-img">
+                <img src="paginav2/irh-subte_converted.webp" alt="Estudios y homologación de pozos"
+                     width="370" height="370" loading="lazy" decoding="async"
+                     sizes="(min-width:992px) 33vw, (min-width:768px) 50vw, 100vw">
+                <div class="service-overlay">
+                  <p>Estudios e informes hidrogeológicos, diseño de captaciones y homologación de pozos.</p>
+                </div>
+              </div>
+              <div class="service-text">
+                <h3>Estudios y homologación de pozos</h3>
+                <a class="btn" role="button" aria-label="Ver detalles de Estudios y homologación de pozos">+</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item">
+              <div class="service-img">
+                <img src="paginav2/irh-terraza_converted.webp" alt="Sistematización de campos"
+                     width="370" height="370" loading="lazy" decoding="async"
+                     sizes="(min-width:992px) 33vw, (min-width:768px) 50vw, 100vw">
+                <div class="service-overlay">
+                  <p>Diseño, ejecución y mantenimiento de terrazas agrícolas para evitar erosión y mejorar productividad.</p>
+                </div>
+              </div>
+              <div class="service-text">
+                <h3>Sistematización de campos</h3>
+                <a class="btn" role="button" aria-label="Ver detalles de Sistematización de campos">+</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- Footer Start -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <div class="footer-contact">
+              <h2>Contacto</h2>
+              <p><i class="fa fa-map-marker-alt"></i>Pedro Balcar 233, Paraná</p>
+              <p><i class="fa fa-map-marker-alt"></i>Rivadavia 2774, Santa Fe</p>
+              <p><i class="fa fa-phone-alt"></i>+54 9 343 506-6172</p>
+              <p><i class="fa fa-envelope"></i>contacto@itza.com.ar</p>
+              <div class="footer-social">
+                <a href="https://www.instagram.com/itzaingenieria/" target="_blank" rel="noopener noreferrer" aria-label="Instagram de ITZA Ingeniería"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/company/itza-ingenieria" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de ITZA Ingeniería"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="footer-link">
+              <h2>Páginas principales</h2>
+              <a href="index.html">Inicio</a>
+              <a href="about.html">Nosotros</a>
+              <a href="portfolio.html">Proyectos</a>
+              <a href="contact.html">Contacto</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="footer-link">
+              <h2>Áreas de ingeniería</h2>
+              <a href="Agrimensura.html">Agrimensura</a>
+              <a href="RecursosHidricos.html">Recursos Hídricos</a>
+              <a href="Topografia.html">Topografía</a>
+              <a href="Ambiental.html">Ambiental</a>
+              <a href="Civil.html">Civil</a>
+              <a href="Simulacion.html">Simulación hidráulica</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="newsletter">
+              <h2>Newsletter</h2>
+              <p>Recibí periódicamente novedades sobre nuestros servicios</p>
+              <div class="form">
+                <input class="form-control" id="email" placeholder="Email">
+                <button class="btn" onclick="sendEmail()">Enviar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="container copyright">
-            <div class="row">
-                <div class="col-md-6">
-                    <p>&copy; <a href="#">Itza Ingeniería</a>, All Right Reserved.</p>
-                </div>
-                <div class="col-md-6">
-                    <p>Designed By Fabian Minotti</p>
-                </div>
-            </div>
+          <div class="row">
+            <div class="col-md-6"><p>&copy; <a href="#">Itza Ingeniería</a>, All Right Reserved.</p></div>
+            <div class="col-md-6"><p>Designed By Fabian Minotti</p></div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Footer End -->
+  </div>
 
-    <!-- <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a> -->
-</div>
-
-<!-- JavaScript Libraries -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-<script src="lib/easing/easing.min.js"></script>
-<script src="lib/wow/wow.min.js"></script>
-<script src="lib/owlcarousel/owl.carousel.min.js"></script>
-<script src="lib/isotope/isotope.pkgd.min.js"></script>
-<script src="lib/lightbox/js/lightbox.min.js"></script>
-<script src="lib/waypoints/waypoints.min.js"></script>
-<script src="lib/counterup/counterup.min.js"></script>
-<script src="lib/slick/slick.min.js"></script>
-
-<!-- Template Javascript -->
-<script src="js/main.js"></script>
+  <!-- JS mínimos y diferidos -->
+  <script defer src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <script defer src="js/main.js"></script>
 </body>
 </html>
