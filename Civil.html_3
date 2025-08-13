@@ -9,6 +9,7 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-K4Q99W75');</script>
 <!-- End Google Tag Manager -->
+ 
 <meta charset="utf-8"/>
 <title>ITZA Ingeniería integral</title>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/><link as="image" href="paginav2/civ-banner_converted.webp" rel="preload"/><link href="https://code.jquery.com" rel="preconnect"/><link href="https://stackpath.bootstrapcdn.com" rel="preconnect"/><link href="https://cdnjs.cloudflare.com" rel="preconnect"/>
@@ -16,23 +17,29 @@
 <meta content="Construction Company Website Template" name="description"/>
 <!-- Favicon -->
 <link href="paginav2/main-ico.jpg" rel="icon"/>
+
+<link rel="preload" href="font/fontello.woff2" as="font" type="font/woff2" crossorigin>
+
+
 <!-- Google Font -->
-<link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="True" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&amp;display=swap" media="print" onload="this.media='all'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="True" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
 <!-- CSS Libraries -->
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
+<link href="lib/flaticon/font/flaticon.css" media="print" onload="this.media='all'" rel="stylesheet"/>
+<link href="lib/animate/animate.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
+<link href="lib/lightbox/css/lightbox.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
+<link href="lib/slick/slick.css" media="print" onload="this.media='all'" rel="stylesheet"/>
+<link href="lib/slick/slick-theme.css" media="print" onload="this.media='all'" rel="stylesheet"/>
+<!-- <script crossorigin="anonymous" defer="" type="text/javascript">
+         
 
-
-<link href="lib/owlcarousel/assets/owl.carousel.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
-
-
-
-<script crossorigin="anonymous" defer="" type="text/javascript">
-</script>
-<script crossorigin="anonymous" defer="True" src="https://kit.fontawesome.com/eb496ab1a0.js"></script>&gt;
+        </script> -->
+<!-- <script crossorigin="anonymous" defer="True" src="https://kit.fontawesome.com/eb496ab1a0.js"></script>&gt; -->
 <!-- Template Stylesheet -->
-
-<link href="css/fontello.css" rel="stylesheet"/>
+<link as="style" href="css/style.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/><noscript><link href="css/style.css" rel="stylesheet"/></noscript>
+<link href="css/fontello.css" media="print" onload="this.media='all'" rel="stylesheet"/>
 <style>
 /* Fuerza font-display:swap para fontello sin tocar el .css original */
 @font-face {
@@ -68,22 +75,20 @@
     line-height: 1.3;
   }
 </style>
-</link><style>
-@font-face {
-  font-family: "Font Awesome 5 Free";
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/webfonts/fa-solid-900.woff2") format("woff2");
-}
-@font-face {
-  font-family: "Font Awesome 5 Brands";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/webfonts/fa-brands-400.woff2") format("woff2");
-}
-</style><link href="css/style.css" rel="stylesheet"/></head>
+<style>
+  .page-header { min-height: clamp(320px, 36vw, 560px); }
+  .page-header .row { margin-top: 0; }
+  /* Congela altura de los títulos mientras carga la fuente */
+  .page-header h2, .page-header h5 {
+    line-height: 1.2;
+    letter-spacing: 0; 
+    text-wrap: balance; /* ok si el navegador lo soporta */
+  }
+  /* Opcional: reserva espacio debajo del héroe si notas salto por el navbar en móvil */
+  .nav-bar .navbar { min-height: 56px; }
+  .service { content-visibility: auto; contain-intrinsic-size: 1200px; }
+</style>
+</head>
 <body>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-K4Q99W75" style="display:none;visibility:hidden" width="0"></iframe></noscript>
@@ -100,8 +105,12 @@
 <div class="logo">
 <a href="index.html">
 <!-- <h1>Builderz</h1> -->
-<img alt="ITZA" decoding="async" fetchpriority="high" height="75" sizes="(min-width: 992px) 111px, 74px" src="img/logo-tr.png" srcset="img/logo-tr.png 1x, img/logo-tr@2x.png 2x" width="111"/>
-</a></div>
+<img src="img/logo-tr.png"
+     srcset="img/logo-tr.png 1x, img/logo-tr@2x.png 2x"
+     sizes="(min-width: 992px) 111px, 74px"
+     alt="ITZA"
+     width="111" height="75" fetchpriority="high" decoding="async">
+    </div>
 </div>
 <div class="col-lg-8 col-md-7 d-none d-lg-block">
 <div class="row">
@@ -188,21 +197,27 @@
 <!-- Nav Bar End -->
 <!-- Page Header Start -->
 <div class="page-header" style="position:relative; overflow:hidden;">
-<img alt="" class="lcp-hero" decoding="async" fetchpriority="high" height="640" src="paginav2/civ-banner_converted.webp" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;" width="1920"/>
-<div class="hero-overlay" style="position:absolute; inset:0; background:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.7));"></div>
-<div class="container" style="position:relative; z-index:1; min-height:clamp(300px,36vw,560px); display:grid; align-content:center;">
-<div class="row">
-<div class="col-12"><h2>INGENIERÍA CIVIL</h2></div>
-<div class="col-12"><h5>Ing. Ignacio Millesimo</h5></div>
-</div>
-<div style="display:block !important;">
-<div class="tags">Cálculo estructural</div>
-<div class="tags">Planos Municipales</div>
-<div class="tags">Proyectos de infraestructura</div>
-<div class="tags">Pliegos Licitatorios</div>
-</div>
-<a aria-label="Contactar por WhatsApp" class="btn" href="https://api.whatsapp.com/send/?phone=5493425687429&amp;text=Hola,%20me%20comunico%20para%20saber%20mas%20sobre%20los%20servicios%20de%20ingenieria%20civil" rel="noopener" target="_blank">Contactar</a>
-</div>
+  <img class="lcp-hero"
+       src="paginav2/civ-banner_converted.webp"
+       alt=""
+       fetchpriority="high" decoding="async"
+       width="1920" height="640"
+       style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;">
+  <div class="hero-overlay" style="position:absolute; inset:0; background:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.7));"></div>
+
+  <div class="container" style="position:relative; z-index:1; min-height:clamp(300px,36vw,560px); display:grid; align-content:center;">
+    <div class="row">
+      <div class="col-12"><h2>INGENIERÍA CIVIL</h2></div>
+      <div class="col-12"><h5>Ing. Ignacio Millesimo</h5></div>
+    </div>
+    <div style="display:block !important;">
+      <div class="tags">Cálculo estructural</div>
+      <div class="tags">Planos Municipales</div>
+      <div class="tags">Proyectos de infraestructura</div>
+      <div class="tags">Pliegos Licitatorios</div>
+    </div>
+    <a class="btn" href="https://api.whatsapp.com/send/?phone=5493425687429&amp;text=Hola,%20me%20comunico%20para%20saber%20mas%20sobre%20los%20servicios%20de%20ingenieria%20civil" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">Contactar</a>
+  </div>
 </div>
 <!-- Page Header End -->
 <!-- Service Start -->
@@ -216,36 +231,36 @@
 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
 <div class="service-item">
 <div class="service-img">
-<img alt="Image" decoding="async" height="340" loading="lazy" src="paginav2/civ-calc_converted.webp" width="340">
+<img alt="Image" decoding="async" loading="lazy" src="paginav2/civ-calc_converted.webp" width="340" height="340"/>
 <div class="service-overlay">
 <p>
                                             El diseño estructural es clave para seguridad y economía en construcción. Ofrecemos proyectos personalizados empleando software específicos como Cype 3d, Cypecad, Ram elements, Tekla y Revit. Garantizando el cumplimiento normativo, generando toda la documentación técnica requerida.
                                         </p>
 </div>
-</img></div>
+</div>
 <div class="service-text">
 <h3>Diseño y Cálculo Estructural</h3>
-<button aria-label="Ver más" class="btn" type="button">+</button> </div>
+<button class="btn" type="button" aria-label="Ver más">+</button> </div>
 </div>
 </div>
 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
 <div class="service-item">
 <div class="service-img">
-<img alt="Image" decoding="async" height="340" loading="lazy" src="paginav2/civ-planos_converted.webp" width="340">
+<img alt="Image" decoding="async" loading="lazy" src="paginav2/civ-planos_converted.webp" width="340" height="340"/>
 <div class="service-overlay">
 <p>
                                             Tramitamos planos municipales, relevando construcciones existentes y presentando la documentación necesaria para su aprobación. Esto asegura el cumplimiento normativo y facilita trámites de venta, alquiler, remodelación o habilitación de negocios.                                        </p>
 </div>
-</img></div>
+</div>
 <div class="service-text">
 <h3>Planos Municipales</h3>
-<button aria-label="Ver más" class="btn" type="button">+</button> </div>
+<button class="btn" type="button" aria-label="Ver más">+</button> </div>
 </div>
 </div>
 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
 <div class="service-item">
 <div class="service-img">
-<img alt="Image" decoding="async" height="340" loading="lazy" src="paginav2/civ-vial_converted.webp" width="340"/>
+<img alt="Image" decoding="async" loading="lazy" src="paginav2/civ-vial_converted.webp" width="340" height="340"/>
 <div class="service-overlay">
 <p>
                                             Nos especializamos en diseñar infraestructura y vías de comunicación para mejorar la movilidad y los servicios básicos para industrias, urbanizaciones y actividades productivas. Ofrecemos proyectos integrales, considerando los últimos paradigmas de desarrollo.
@@ -254,14 +269,15 @@
 </div>
 <div class="service-text">
 <h3>Proyectos viales e Infraestructura</h3>
-<button aria-label="Ver más" class="btn" type="button">+</button>
+<button class="btn" type="button" aria-label="Ver más">+</button>
 </div>
 </div>
 </div>
+
 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
 <div class="service-item">
 <div class="service-img">
-<img alt="Image" decoding="async" height="340" loading="lazy" src="paginav2/civ-licit_converted.webp" width="340"/>
+<img alt="Image" decoding="async" loading="lazy" src="paginav2/civ-licit_converted.webp" width="340" height="340"/>
 <div class="service-overlay">
 <p>
                                             En ITZA, elaboramos la documentación técnica completa para proyectos de ingeniería, incluyendo pliegos, cómputos, presupuestos y redeterminaciones de precios. Toda esta información es esencial para licitaciones y gestión de financiamientos.
@@ -270,13 +286,13 @@
 </div>
 <div class="service-text">
 <h3>Pliegos Licitatorios</h3>
-<button aria-label="Ver más" class="btn" type="button">+</button> </div>
+<button class="btn" type="button" aria-label="Ver más">+</button> </div>
 </div>
 </div>
 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
 <div class="service-item">
 <div class="service-img">
-<img alt="Image" decoding="async" height="340" loading="lazy" src="paginav2/civ-sanitaria_converted.webp" width="340"/>
+<img alt="Image" decoding="async" loading="lazy" src="paginav2/civ-sanitaria_converted.webp" width="340" height="340"/>
 <div class="service-overlay">
 <p>
                                             Elaboramos proyectos de infraestructura sanitaria, pluvial, eléctrica y de gas. Desarrollamos todos los cálculos para su dimensionamiento y brindamos toda la documentación técnica para su ejecución . 
@@ -285,13 +301,13 @@
 </div>
 <div class="service-text">
 <h3>Proyectos de instalaciones de servicios</h3>
-<button aria-label="Ver más" class="btn" type="button">+</button> </div>
+<button class="btn" type="button" aria-label="Ver más">+</button> </div>
 </div>
 </div>
 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
 <div class="service-item">
 <div class="service-img">
-<img alt="Image" decoding="async" height="340" loading="lazy" src="paginav2/civ-cp_converted.webp" width="340"/>
+<img alt="Image" decoding="async" loading="lazy" src="paginav2/civ-cp_converted.webp" width="340" height="340"/>
 <div class="service-overlay">
 <p>
                                             Realizamos cálculos precisos y desarrollamos presupuestos detallados para proyectos ejecutivos, garantizando una planificación financiera óptima y la viabilidad de cada obra. 
@@ -300,7 +316,7 @@
 </div>
 <div class="service-text">
 <h3>Cómputos y presupuestos</h3>
-<button aria-label="Ver más" class="btn" type="button">+</button> </div>
+<button class="btn" type="button" aria-label="Ver más">+</button> </div>
 </div>
 </div>
 </div>
@@ -526,13 +542,13 @@
 <script defer="" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script defer="" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
 <script defer="" src="lib/easing/easing.min.js"></script>
-
-<script defer="" src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script defer="" src="lib/wow/wow.min.js"></script>
+<!-- <script defer="" src="lib/owlcarousel/owl.carousel.min.js"></script>
 <script defer="" src="lib/isotope/isotope.pkgd.min.js"></script>
 <script defer="" src="lib/lightbox/js/lightbox.min.js"></script>
 <script defer="" src="lib/waypoints/waypoints.min.js"></script>
 <script defer="" src="lib/counterup/counterup.min.js"></script>
-<script defer="True" src="lib/slick/slick.min.js"></script>
+<script defer="True" src="lib/slick/slick.min.js"></script> -->
 <!-- Template Javascript -->
 <script defer="True" src="js/main.js"></script>
 </body>

@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K4Q99W75');</script>
+    <!-- End Google Tag Manager -->
+        <meta charset="utf-8">
+        <title>ITZA Ingeniería integral</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Construction Company Website Template" name="keywords">
+        <meta content="Construction Company Website Template" name="description">
+
+        <!-- Favicon -->
+<link href="paginav2\main-ico.jpg" rel="icon">
+
+        <!-- Google Font -->
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+
+        <!-- CSS Libraries -->
+       <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet"  media="print" onload="this.media='all'"> 
+    <link href="lib/animate/animate.min.css" rel="stylesheet"  media="print" onload="this.media='all'">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"  media="print" onload="this.media='all'">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet"  media="print" onload="this.media='all'">
+    <link href="lib/slick/slick.css" rel="stylesheet"  media="print" onload="this.media='all'">
+    <link href="lib/slick/slick-theme.css" rel="stylesheet"  media="print" onload="this.media='all'">
+
+        <script type="text/javascript" crossorigin="anonymous" defer>
+            // Variables globales
+            var imgIRH = "img/imgIRH.jpg"
+
+        </script>
+  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous" crossorigin="anonymous" defer></script>></script>
+
+        <!-- Template Stylesheet -->
+<link href="css/style.css" rel="stylesheet" media="print" onload="this.media='all'">
+        <link href="css/fontello.css" rel="stylesheet"  media="print" onload="this.media='all'">
+
+
+
+   
+
+    </head>
+
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K4Q99W75"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+        <a href="https://api.whatsapp.com/send/?phone=5493425687429&text=Hola,%20me%20comunico%20para%20saber%20mas%20sobre%20los%20servicios%20de%20ingenieria%20civil" class="btn-wsp" target="_blank">
+            <i class="icon-whatsapp"></i>
+        </a>
+        <div class="wrapper">
+            <!-- Top Bar Start -->
+            <div class="top-bar">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 col-md-12">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <!-- <h1>Builderz</h1> -->
+                                    <img src="img/logo-tr.png" alt="ITZA">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-7 d-none d-lg-block">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="top-bar-item">
+                                        <div class="top-bar-icon">
+                                            <!-- <i class="flaticon-calendar"></i> -->
+                                        </div>
+                                        <div class="top-bar-text">
+                                            <!-- <h3>Opening Hour</h3>
+                                            <p>Mon - Fri, 8:00 - 9:00</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="top-bar-item">
+                                        <div class="top-bar-icon">
+                                            <!-- <i class="flaticon-call"></i> -->
+                                        </div>
+                                        <div class="top-bar-text">
+                                            <!-- <h3>Call Us</h3>
+                                            <p>+012 345 6789</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="top-bar-item">
+                                        <div class="top-bar-icon">
+                                            <!-- <i class="flaticon-send-mail"></i> -->
+                                        </div>
+                                        <div class="top-bar-text">
+                                            <!-- <h3>Email Us</h3>
+                                            <p>info@example.com</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Top Bar End -->
+
+            <!-- Nav Bar Start -->
+            <div class="nav-bar">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                        <a href="#" class="navbar-brand">MENU</a>
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                            <div class="navbar-nav mr-auto">
+                                <a href="index.html" class="nav-item nav-link ">Inicio</a>
+                                <a href="about.html" class="nav-item nav-link">Nosotros</a>
+                                <!-- <a href="service.html" class="nav-item nav-link">Servicios</a> -->
+                                <!-- <a href="team.html" class="nav-item nav-link">Agrimensura</a>
+                                <a href="team.html" class="nav-item nav-link">Recursos hidricos</a>
+                                <a href="team.html" class="nav-item nav-link">Topografia</a>
+                                <a href="team.html" class="nav-item nav-link">Ambiental</a>
+                                <a href="team.html" class="nav-item nav-link">Civil</a> -->
+                                <a href="portfolio.html" class="nav-item nav-link">Proyectos</a>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Áreas</a>
+                                    <div class="dropdown-menu">
+                                        <a href="Agrimensura.html" class="dropdown-item" style="color: white !important;">Agrimensura</a>
+                                        <a href="RecursosHidricos.html" class="dropdown-item" style="color: white !important;">Recursos hídricos</a>
+                                        <a href="Topografia.html" class="dropdown-item" style="color: white !important;">Topografía</a>
+                                        <a href="Ambiental.html" class="dropdown-item" style="color: white !important;">Ambiental</a>
+                                        <a href="Civil.html" class="dropdown-item active" style="color: white !important;">Civil</a>
+                                        <!-- <a href="Loteos.html" class="dropdown-item" style="color: white !important;">Loteos</a> -->
+                                        <a href="Simulacion.html" class="dropdown-item" style="color: white !important;">Simulación Hidráulica</a>
+                                    </div>
+                                </div>
+                                <a href="contact.html" class="nav-item nav-link">Contacto</a>
+                            </div>
+                            <div class="ml-auto">
+                                <a class="btn" href="https://api.whatsapp.com/send/?phone=5493425687429&text=Hola,%20me%20comunico%20para%20saber%20mas%20sobre%20los%20servicios%20de%20ingenieria%20civil">Contáctanos</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- Nav Bar End -->
+            <!-- Nav Bar End -->
+            
+            
+            <!-- Page Header Start -->
+            <div class="page-header"  style="background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url(paginav2/civ-banner.jpg) ;background-size: cover;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>INGENIERÍA CIVIL</h2>
+                        </div>
+                        <div class="col-12">
+                            <h5>Ing. Ignacio Millesimo</h5>
+                        </div>
+                    </div>
+                    <div style="display: block !important;">
+                        <div class="tags">Cálculo estructural</div>                        
+                        <div class="tags">Planos Municipales</div>
+                        <!-- <div class="tags">Gestión de Proyectos</div> -->
+                                                 <div class="tags">Proyectos de infraestructura</div>
+
+                        <div class="tags">Pliegos Licitatorios</div>
+                    </div>
+                    <a class="btn" href="https://api.whatsapp.com/send/?phone=5493425687429&text=Hola,%20me%20comunico%20para%20saber%20mas%20sobre%20los%20servicios%20de%20ingenieria%20civil" target="_blank">Contactar</a>
+    
+                </div>
+            </div>
+            <!-- Page Header End -->
+
+
+            <!-- Service Start -->
+            <div class="service">
+                <div class="container">
+                    <div class="section-header text-center">
+                        <p></p>
+                        <h2>Servicios</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="service-item">
+                                <div class="service-img">
+                                    <img src="paginav2/civ-calc.jpg" alt="Image" loading="lazy">
+                                    <div class="service-overlay">
+                                        <p>
+                                            El diseño estructural es clave para seguridad y economía en construcción. Ofrecemos proyectos personalizados empleando software específicos como Cype 3d, Cypecad, Ram elements, Tekla y Revit. Garantizando el cumplimiento normativo, generando toda la documentación técnica requerida.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="service-text">
+                                    <h3>Diseño y Cálculo Estructural</h3>
+                                    <a class="btn">+</a>                            </div>
+                            </div>
+                        </div>
+                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="service-item">
+                                <div class="service-img">
+                                    <img src="paginav2/civ-planos.jpg" alt="Image" loading="lazy">
+                                    <div class="service-overlay">
+                                        <p>
+                                            Tramitamos planos municipales, relevando construcciones existentes y presentando la documentación necesaria para su aprobación. Esto asegura el cumplimiento normativo y facilita trámites de venta, alquiler, remodelación o habilitación de negocios.                                        </p>
+                                    </div>
+                                </div>
+                                <div class="service-text">
+                                    <h3>Planos Municipales</h3>
+                                    <a class="btn">+</a>                            </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="service-item">
+                                <div class="service-img">
+                                    <img src="paginav2/civ-vial.jpg" alt="Image" loading="lazy">
+                                    <div class="service-overlay">
+                                        <p>
+                                            Nos especializamos en diseñar infraestructura y vías de comunicación para mejorar la movilidad y los servicios básicos para industrias, urbanizaciones y actividades productivas. Ofrecemos proyectos integrales, considerando los últimos paradigmas de desarrollo.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="service-text">
+                                    <h3>Proyectos viales e Infraestructura</h3>
+                                    <a class="btn">+</a>
+                                                            </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="service-item">
+                                <div class="service-img">
+                                    <img src="paginav2/civ-gesproy.jpg" alt="Image">
+                                    <div class="service-overlay">
+                                        <p>
+                                            Planificación, coordinación de recursos y control para la ejecución proyectos de construcción eficientemente, cumpliendo objetivos, plazos, presupuestos y estándares de calidad y seguridad.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="service-text">
+                                    <h3>Gestión de proyectos</h3>
+                                    <a class="btn">+</a>                            </div>
+                            </div>
+                        </div> -->
+                       
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="service-item">
+                                <div class="service-img">
+                                    <img src="paginav2/civ-licit.jpg" alt="Image" loading="lazy">
+                                    <div class="service-overlay">
+                                        <p>
+                                            En ITZA, elaboramos la documentación técnica completa para proyectos de ingeniería, incluyendo pliegos, cómputos, presupuestos y redeterminaciones de precios. Toda esta información es esencial para licitaciones y gestión de financiamientos.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="service-text">
+                                    <h3>Pliegos Licitatorios</h3>
+                                    <a class="btn">+</a>                            </div>
+                            </div>
+                        </div>
+                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="service-item">
+                                <div class="service-img">
+                                    <img src="paginav2/civ-sanitaria.jpg" alt="Image" loading="lazy">
+                                    <div class="service-overlay">
+                                        <p>
+                                            Elaboramos proyectos de infraestructura sanitaria, pluvial, eléctrica y de gas. Desarrollamos todos los cálculos para su dimensionamiento y brindamos toda la documentación técnica para su ejecución . 
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="service-text">
+                                    <h3>Proyectos de instalaciones de servicios</h3>
+                                    <a class="btn">+</a>                            </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="service-item">
+                                <div class="service-img">
+                                    <img src="paginav2/civ-cp.jpg" alt="Image" loading="lazy">
+                                    <div class="service-overlay">
+                                        <p>
+                                            Realizamos cálculos precisos y desarrollamos presupuestos detallados para proyectos ejecutivos, garantizando una planificación financiera óptima y la viabilidad de cada obra. 
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="service-text">
+                                    <h3>Cómputos y presupuestos</h3>
+                                    <a class="btn">+</a>                            </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <!-- Service End -->
+            
+            
+            <!-- FAQs Start -->
+            <!-- <div class="faqs">
+                <div class="container">
+                    <div class="section-header text-center">
+                        <p>Frequently Asked Question</p>
+                        <h2>You May Ask</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div id="accordion-1">
+                                <div class="card wow fadeInLeft" data-wow-delay="0.1s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseOne">
+                                            Lorem ipsum dolor sit amet?
+                                        </a>
+                                    </div>
+                                    <div id="collapseOne" class="collapse" data-parent="#accordion-1">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card wow fadeInLeft" data-wow-delay="0.2s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseTwo">
+                                            Lorem ipsum dolor sit amet?
+                                        </a>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" data-parent="#accordion-1">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card wow fadeInLeft" data-wow-delay="0.3s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseThree">
+                                            Lorem ipsum dolor sit amet?
+                                        </a>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" data-parent="#accordion-1">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card wow fadeInLeft" data-wow-delay="0.4s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseFour">
+                                            Lorem ipsum dolor sit amet?
+                                        </a>
+                                    </div>
+                                    <div id="collapseFour" class="collapse" data-parent="#accordion-1">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card wow fadeInLeft" data-wow-delay="0.5s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseFive">
+                                            Lorem ipsum dolor sit amet?
+                                        </a>
+                                    </div>
+                                    <div id="collapseFive" class="collapse" data-parent="#accordion-1">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="accordion-2">
+                                <div class="card wow fadeInRight" data-wow-delay="0.1s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseSix">
+                                            Lorem ipsum dolor sit amet?
+                                        </a>
+                                    </div>
+                                    <div id="collapseSix" class="collapse" data-parent="#accordion-2">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card wow fadeInRight" data-wow-delay="0.2s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseSeven">
+                                            Lorem ipsum dolor sit amet?
+                                        </a>
+                                    </div>
+                                    <div id="collapseSeven" class="collapse" data-parent="#accordion-2">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card wow fadeInRight" data-wow-delay="0.3s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseEight">
+                                            Lorem ipsum dolor sit amet?
+                                        </a>
+                                    </div>
+                                    <div id="collapseEight" class="collapse" data-parent="#accordion-2">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card wow fadeInRight" data-wow-delay="0.4s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseNine">
+                                            Lorem ipsum dolor sit amet?
+                                        </a>
+                                    </div>
+                                    <div id="collapseNine" class="collapse" data-parent="#accordion-2">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card wow fadeInRight" data-wow-delay="0.5s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseTen">
+                                            Lorem ipsum dolor sit amet?
+                                        </a>
+                                    </div>
+                                    <div id="collapseTen" class="collapse" data-parent="#accordion-2">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- FAQs End -->
+
+
+          <!-- Footer Start -->
+          <div class="footer wow fadeIn" data-wow-delay="0.3s">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="footer-contact">
+                            <h2>Contacto</h2>
+                            <p><i class="fa fa-map-marker-alt"></i>Pedro Balcar 233, Paraná </p>
+                            <p><i class="fa fa-map-marker-alt"></i>Rivadavia 2774, Santa Fe</p>
+                            <p><i class="fa fa-phone-alt"></i>+54 9 343 506-6172</p>
+                            <p><i class="fa fa-envelope"></i>contacto@itza.com.ar
+                            </p>
+                            <div class="footer-social">
+                                <a href="https://www.instagram.com/itzaingenieria/"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/company/itza-ingenieria"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="footer-link">
+                            <h2>Paginas Principales</h2>
+                            <a href="index.html">Inicio</a>
+                            <a href="about.html">Nosotros</a>
+                            <a href="portfolio.html">Proyectos</a>
+                            <a href="contact.html">Contacto</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="footer-link">
+                            <h2>Areas de ingeniería</h2>
+                            <a href="Agrimensura.html">Agrimensura</a>
+                            <a href="RecursosHidricos.html">Recursos Hídricos</a>
+                            <a href="Topografia.html">Topografía</a>
+                            <a href="Ambiental.html">Ambiental</a>
+                            <a href="Civil.html">Ingeniería Civil</a>
+                            <a href="Simulacion.html">Simulación Hidráulica</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="newsletter">
+                            <h2>Newsletter</h2>
+                            <p>
+                                Recibí periódicamente novedades sobre nuestros servicios
+                            </p>
+                            <div class="form">
+                                <input class="form-control" id="email" placeholder="Email">
+                                <button class="btn" onclick="sendEmail()">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="container footer-menu">
+                <div class="f-menu">
+                    <a href="">Terms of use</a>
+                    <a href="">Privacy policy</a>
+                    <a href="">Cookies</a>
+                    <a href="">Help</a>
+                    <a href="">FQAs</a>
+                </div>
+            </div> -->
+            <div class="container copyright">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>&copy; <a href="#">Itza Ingeniería</a>, All Right Reserved.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Designed By Fabian Minotti</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a> -->
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" defer></script>
+    <script src="lib/easing/easing.min.js" defer></script>
+    <script src="lib/wow/wow.min.js" defer></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js" defer></script>
+    <script src="lib/isotope/isotope.pkgd.min.js" defer></script>
+    <script src="lib/lightbox/js/lightbox.min.js" defer></script>
+    <script src="lib/waypoints/waypoints.min.js" defer></script>
+    <script src="lib/counterup/counterup.min.js" defer></script>
+    <script src="lib/slick/slick.min.js"> defer</script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

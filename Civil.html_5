@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="es">
 <head>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -10,29 +10,28 @@
     })(window,document,'script','dataLayer','GTM-K4Q99W75');</script>
 <!-- End Google Tag Manager -->
 <meta charset="utf-8"/>
-<title>ITZA Ingeniería integral</title>
+<title>Ingeniería Civil | Cálculo estructural y Planos Municipales | ITZA Ingeniería</title>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/><link as="image" href="paginav2/civ-banner_converted.webp" rel="preload"/><link href="https://code.jquery.com" rel="preconnect"/><link href="https://stackpath.bootstrapcdn.com" rel="preconnect"/><link href="https://cdnjs.cloudflare.com" rel="preconnect"/>
-<meta content="Construction Company Website Template" name="keywords"/>
-<meta content="Construction Company Website Template" name="description"/>
+
+
 <!-- Favicon -->
 <link href="paginav2/main-ico.jpg" rel="icon"/>
 <!-- Google Font -->
-<link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="True" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&amp;display=swap" media="print" onload="this.media='all'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="True" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&amp;display=swap" rel="stylesheet"/>
 <!-- CSS Libraries -->
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
+<link href="lib/flaticon/font/flaticon.css" media="print" onload="this.media='all'" rel="stylesheet"/>
+<link href="lib/animate/animate.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
 
+<link href="lib/lightbox/css/lightbox.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
+<link href="lib/slick/slick.css" media="print" onload="this.media='all'" rel="stylesheet"/>
+<link href="lib/slick/slick-theme.css" media="print" onload="this.media='all'" rel="stylesheet"/>
 
-<link href="lib/owlcarousel/assets/owl.carousel.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
-
-
-
-<script crossorigin="anonymous" defer="" type="text/javascript">
-</script>
-<script crossorigin="anonymous" defer="True" src="https://kit.fontawesome.com/eb496ab1a0.js"></script>&gt;
+&gt;
 <!-- Template Stylesheet -->
-
-<link href="css/fontello.css" rel="stylesheet"/>
+<link as="style" href="css/style.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/><noscript><link href="css/style.css" rel="stylesheet"/></noscript>
+<link href="css/fontello.css" media="print" onload="this.media='all'" rel="stylesheet"/>
 <style>
 /* Fuerza font-display:swap para fontello sin tocar el .css original */
 @font-face {
@@ -68,23 +67,11 @@
     line-height: 1.3;
   }
 </style>
-</link><style>
-@font-face {
-  font-family: "Font Awesome 5 Free";
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/webfonts/fa-solid-900.woff2") format("woff2");
-}
-@font-face {
-  font-family: "Font Awesome 5 Brands";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/webfonts/fa-brands-400.woff2") format("woff2");
-}
-</style><link href="css/style.css" rel="stylesheet"/></head>
-<body>
+<meta content="Servicios de ingeniería civil en Paraná y Santa Fe: cálculo estructural, planos municipales, proyectos viales e infraestructura, cómputos y presupuestos. ITZA Ingeniería." name="description"/><meta content="ingeniería civil, cálculo estructural, planos municipales, proyectos viales, infraestructura, cómputos, presupuestos, Paraná, Santa Fe" name="keywords"/><link href="https://www.itza.com.ar/Civil.html" rel="canonical"/><meta content="website" property="og:type"/><meta content="Ingeniería Civil | ITZA Ingeniería" property="og:title"/><meta content="Cálculo estructural, planos municipales y proyectos de infraestructura." property="og:description"/><meta content="https://www.itza.com.ar/Civil.html" property="og:url"/><style>
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}
+.service-img img{width:100%;height:auto;aspect-ratio:1/1;display:block;}
+</style></head>
+<body><a class="sr-only" href="#contenido">Saltar al contenido principal</a>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-K4Q99W75" style="display:none;visibility:hidden" width="0"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
@@ -100,7 +87,7 @@
 <div class="logo">
 <a href="index.html">
 <!-- <h1>Builderz</h1> -->
-<img alt="ITZA" decoding="async" fetchpriority="high" height="75" sizes="(min-width: 992px) 111px, 74px" src="img/logo-tr.png" srcset="img/logo-tr.png 1x, img/logo-tr@2x.png 2x" width="111"/>
+<img alt="ITZA" decoding="async" fetchpriority="high" height="75" sizes="(min-width: 992px) 111px, 74px" src="img/logo-tr.png" srcset="img/logo-tr.png 1x, img/logo-tr.png 2x" width="111"/>
 </a></div>
 </div>
 <div class="col-lg-8 col-md-7 d-none d-lg-block">
@@ -170,7 +157,7 @@
 <a class="dropdown-item" href="RecursosHidricos.html" style="color: white !important;">Recursos hídricos</a>
 <a class="dropdown-item" href="Topografia.html" style="color: white !important;">Topografía</a>
 <a class="dropdown-item" href="Ambiental.html" style="color: white !important;">Ambiental</a>
-<a class="dropdown-item active" href="Civil.html" style="color: white !important;">Civil</a>
+<a aria-current="page" class="dropdown-item active" href="Civil.html" style="color: white !important;">Civil</a>
 <!-- <a href="Loteos.html" class="dropdown-item" style="color: white !important;">Loteos</a> -->
 <a class="dropdown-item" href="Simulacion.html" style="color: white !important;">Simulación Hidráulica</a>
 </div>
@@ -187,17 +174,20 @@
 <!-- Nav Bar End -->
 <!-- Nav Bar End -->
 <!-- Page Header Start -->
-<div class="page-header" style="position:relative; overflow:hidden;">
-<img alt="" class="lcp-hero" decoding="async" fetchpriority="high" height="640" src="paginav2/civ-banner_converted.webp" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;" width="1920"/>
-<div class="hero-overlay" style="position:absolute; inset:0; background:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.7));"></div>
-<div class="container" style="position:relative; z-index:1; min-height:clamp(300px,36vw,560px); display:grid; align-content:center;">
+<div id="contenido"></div><div class="page-header" style="background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url(paginav2/civ-banner_converted.webp) ;background-size: cover;">
+<div class="container">
 <div class="row">
-<div class="col-12"><h2>INGENIERÍA CIVIL</h2></div>
-<div class="col-12"><h5>Ing. Ignacio Millesimo</h5></div>
+<div class="col-12">
+<h2>INGENIERÍA CIVIL</h2>
 </div>
-<div style="display:block !important;">
+<div class="col-12">
+<h5>Ing. Ignacio Millesimo</h5>
+</div>
+</div>
+<div style="display: block !important;">
 <div class="tags">Cálculo estructural</div>
 <div class="tags">Planos Municipales</div>
+<!-- <div class="tags">Gestión de Proyectos</div> -->
 <div class="tags">Proyectos de infraestructura</div>
 <div class="tags">Pliegos Licitatorios</div>
 </div>
@@ -216,7 +206,7 @@
 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
 <div class="service-item">
 <div class="service-img">
-<img alt="Image" decoding="async" height="340" loading="lazy" src="paginav2/civ-calc_converted.webp" width="340">
+<img alt="Diseño y cálculo estructural" decoding="async" loading="lazy" src="paginav2/civ-calc_converted.webp" width="340">
 <div class="service-overlay">
 <p>
                                             El diseño estructural es clave para seguridad y economía en construcción. Ofrecemos proyectos personalizados empleando software específicos como Cype 3d, Cypecad, Ram elements, Tekla y Revit. Garantizando el cumplimiento normativo, generando toda la documentación técnica requerida.
@@ -231,12 +221,12 @@
 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
 <div class="service-item">
 <div class="service-img">
-<img alt="Image" decoding="async" height="340" loading="lazy" src="paginav2/civ-planos_converted.webp" width="340">
+<img alt="Planos municipales" decoding="async" loading="lazy" src="paginav2/civ-planos_converted.webp" width="340"/>
 <div class="service-overlay">
 <p>
                                             Tramitamos planos municipales, relevando construcciones existentes y presentando la documentación necesaria para su aprobación. Esto asegura el cumplimiento normativo y facilita trámites de venta, alquiler, remodelación o habilitación de negocios.                                        </p>
 </div>
-</img></div>
+</div>
 <div class="service-text">
 <h3>Planos Municipales</h3>
 <button aria-label="Ver más" class="btn" type="button">+</button> </div>
@@ -245,7 +235,7 @@
 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
 <div class="service-item">
 <div class="service-img">
-<img alt="Image" decoding="async" height="340" loading="lazy" src="paginav2/civ-vial_converted.webp" width="340"/>
+<img alt="Proyectos viales e infraestructura" decoding="async" loading="lazy" src="paginav2/civ-vial_converted.webp" width="340"/>
 <div class="service-overlay">
 <p>
                                             Nos especializamos en diseñar infraestructura y vías de comunicación para mejorar la movilidad y los servicios básicos para industrias, urbanizaciones y actividades productivas. Ofrecemos proyectos integrales, considerando los últimos paradigmas de desarrollo.
@@ -261,7 +251,7 @@
 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
 <div class="service-item">
 <div class="service-img">
-<img alt="Image" decoding="async" height="340" loading="lazy" src="paginav2/civ-licit_converted.webp" width="340"/>
+<img alt="Pliegos licitatorios y documentación técnica" decoding="async" loading="lazy" src="paginav2/civ-licit_converted.webp" width="340"/>
 <div class="service-overlay">
 <p>
                                             En ITZA, elaboramos la documentación técnica completa para proyectos de ingeniería, incluyendo pliegos, cómputos, presupuestos y redeterminaciones de precios. Toda esta información es esencial para licitaciones y gestión de financiamientos.
@@ -276,7 +266,7 @@
 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
 <div class="service-item">
 <div class="service-img">
-<img alt="Image" decoding="async" height="340" loading="lazy" src="paginav2/civ-sanitaria_converted.webp" width="340"/>
+<img alt="Proyectos de instalaciones de servicios" decoding="async" loading="lazy" src="paginav2/civ-sanitaria_converted.webp" width="340"/>
 <div class="service-overlay">
 <p>
                                             Elaboramos proyectos de infraestructura sanitaria, pluvial, eléctrica y de gas. Desarrollamos todos los cálculos para su dimensionamiento y brindamos toda la documentación técnica para su ejecución . 
@@ -291,7 +281,7 @@
 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
 <div class="service-item">
 <div class="service-img">
-<img alt="Image" decoding="async" height="340" loading="lazy" src="paginav2/civ-cp_converted.webp" width="340"/>
+<img alt="Cómputos y presupuestos" decoding="async" loading="lazy" src="paginav2/civ-cp_converted.webp" width="340"/>
 <div class="service-overlay">
 <p>
                                             Realizamos cálculos precisos y desarrollamos presupuestos detallados para proyectos ejecutivos, garantizando una planificación financiera óptima y la viabilidad de cada obra. 
@@ -460,8 +450,8 @@
 <p><i class="fa fa-envelope"></i>contacto@itza.com.ar
                             </p>
 <div class="footer-social">
-<a href="https://www.instagram.com/itzaingenieria/"><i class="fab fa-instagram"></i></a>
-<a href="https://www.linkedin.com/company/itza-ingenieria"><i class="fab fa-linkedin-in"></i></a>
+<a aria-label="Instagram de ITZA Ingeniería" href="https://www.instagram.com/itzaingenieria/" title="Instagram de ITZA Ingeniería"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a>
+<a aria-label="LinkedIn de ITZA Ingeniería" href="https://www.linkedin.com/company/itza-ingenieria" title="LinkedIn de ITZA Ingeniería"><i class="fab fa-linkedin-in"></i><span class="sr-only">LinkedIn</span></a>
 </div>
 </div>
 </div>
@@ -492,7 +482,7 @@
                                 Recibí periódicamente novedades sobre nuestros servicios
                             </p>
 <div class="form">
-<input class="form-control" id="email" placeholder="Email"/>
+<label class="sr-only" for="email">Correo electrónico</label><input aria-label="Correo electrónico" autocomplete="email" class="form-control" id="email" inputmode="email" placeholder="Email" type="email"/>
 <button class="btn" onclick="sendEmail()">Enviar</button>
 </div>
 </div>
@@ -526,14 +516,14 @@
 <script defer="" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script defer="" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
 <script defer="" src="lib/easing/easing.min.js"></script>
+<script defer="" src="lib/wow/wow.min.js"></script>
 
-<script defer="" src="lib/owlcarousel/owl.carousel.min.js"></script>
-<script defer="" src="lib/isotope/isotope.pkgd.min.js"></script>
-<script defer="" src="lib/lightbox/js/lightbox.min.js"></script>
-<script defer="" src="lib/waypoints/waypoints.min.js"></script>
-<script defer="" src="lib/counterup/counterup.min.js"></script>
-<script defer="True" src="lib/slick/slick.min.js"></script>
+
+
+
+
+
 <!-- Template Javascript -->
-<script defer="True" src="js/main.js"></script>
+<script>window.WOW = window.WOW || function(){return {init:function(){}}};</script><script defer="True" src="js/main.js"></script>
 </body>
 </html>
