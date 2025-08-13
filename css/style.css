@@ -407,6 +407,23 @@ a:focus {
     height: calc(100vh - 170px);
 }
 
+.page-header h1 {
+       position: relative;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+.page-header h1::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    left: calc(50% - 50px);
+    bottom: 0;
+    background: white;
+}
+
 .page-header h2 {
     position: relative;
     color: white;
@@ -467,6 +484,30 @@ a:focus {
     transition: .3s;
     animation: glow 1.5s infinite alternate; /* Nueva animación */
 
+}
+
+
+.about .btn {
+    display: inline-block;
+    position: relative;
+    border: 2px solid #0293E7;
+    margin-top: 15px;
+    padding: 15px 35px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color:  #0293E7;
+    border-radius: 0;
+    background: #0293E7;
+    transition: .3s;
+    animation: glow 1.5s infinite alternate; /* Nueva animación */
+
+}
+
+
+.about .btn:hover {
+    color:  #0293E7;
+    background:  #0293e750;
 }
 
 .page-header .btn:hover {
